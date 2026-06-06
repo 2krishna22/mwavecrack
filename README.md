@@ -1,4 +1,3 @@
-# Start
 
 **(only works for windows as of now)**
 
