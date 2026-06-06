@@ -2,26 +2,31 @@
 
 **(only works for windows as of now)**
 
-Download the installer `motivewave_setup7.0.23.exe` file from the release page, or use the link and get it from the actual motivewave website. It's the original file, I just uploaded it so you can have the version of motivewave that this patch was made to work with.
-
 # How to use
 
 In order to get the cracked license you can either download the already patched files from the release page or you can use the python script attached to do it yourself,  The files needed are in C:\Program Files (x86)\MotiveWave and C:\Program Files (x86)\MotiveWave\bin or wherever you installed motivewave.
 
-I added the 7.0.23 Motivewave setup file as that is the current version this works with as of now
+firstly uninstall motivewave if you currently have it installed, then download the installer `motivewave_setup7.0.23.exe` file from the release page
 
-Firstly, install the provided "MotiveWave.exe" and MotiveWave.Jar" files to your downloads
+this is the official 7.0.23 Motivewave setup file as that is the current version this works with as of now
+
+now install the provided "MotiveWave.exe" and MotiveWave.Jar" from the release page to your downloads
 
 in the `C:\Program Files (x86)\MotiveWave` folder (or wherever you have it installed), replace the existing "MotiveWave.exe", with the new one you just installed, and replace it. 
 
-Lastly, in the  `C:\Program Files (x86)\MotiveWave` folder, there should be a folder named "lib" , in there replace the existing "MotiveWave.Jar" folder with the new one provided, and replace it.
+then in the  `C:\Program Files (x86)\MotiveWave` folder, there should be a folder named "lib" , in there replace the existing "MotiveWave.Jar" folder with the new one provided
 
-You can finally launch motivewave now and as you are in the launcher where it asks you to select a workspace, click on the options and click "License"
+you can finally launch motivewave now and as you are in the launcher where it asks you to select a workspace, click on the options and click "License"
 
-For the License you can input something like XXXX-XXXX-XXXX-XXXX-XXX-XXXX or AAAA-AAAA-AAAA-AAAA-AAAA-AAAA , any combination of 24 letters will work, and click update.
+for the License you can input something like XXXX-XXXX-XXXX-XXXX-XXX-XXXX or AAAA-AAAA-AAAA-AAAA-AAAA-AAAA , any combination of 24 letters will work, and click update.
 
-You should now have it
+follow the steps to setup the workspace and configure, you will need a data feed, AMP's free trial is recommended for this. 
 
+For some users it might generate large log files located at: C:\Users\yourusername\AppData\Roaming\MotiveWave\output 
+
+to fix this Go to C:\Users\yourusername\AppData\Roaming\MotiveWave 
+
+then edit the file startup.ini add the following line VM_ARGS=-Dprism.verbose=false -Dprism.forceUploadingPainter=false
 
 
 ## Other Notes
